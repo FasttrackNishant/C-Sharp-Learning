@@ -1,2 +1,2 @@
-# C-_Fundamentals
+# C Sharp Fundamentals
 This Repository Contains C# fundamentals.
