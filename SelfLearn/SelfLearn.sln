@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteGateClassLib", "02_Delegates\DeleteGateClassLib\DeleteGateClassLib.csproj", "{84F5C837-34E6-4F1A-8841-E786304A7765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleCastDelegate", "02_Delegates\SingleCastDelegate\SingleCastDelegate.csproj", "{66F9A583-6070-46A7-AB9B-C7B965C84DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCastDelegateConsole", "02_Delegates\MultiCastDelegateConsole\MultiCastDelegateConsole.csproj", "{A0FBA642-B93A-4AF2-8A13-766E83BB963D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsConsole", "03_Events\EventsConsole\EventsConsole.csproj", "{D7D1EA30-34FE-44A9-A91B-76D02C752A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIntroConsole", "04_Generics\GenericIntroConsole\GenericIntroConsole.csproj", "{BF19FB7D-D404-434C-B1BD-5AB9CC26DF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToLINQ", "05_LINQ\IntroToLINQ\IntroToLINQ.csproj", "{D14330B2-6C1D-4D2B-88EA-3B9E630A227D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84F5C837-34E6-4F1A-8841-E786304A7765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F5C837-34E6-4F1A-8841-E786304A7765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F5C837-34E6-4F1A-8841-E786304A7765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F5C837-34E6-4F1A-8841-E786304A7765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F9A583-6070-46A7-AB9B-C7B965C84DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F9A583-6070-46A7-AB9B-C7B965C84DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F9A583-6070-46A7-AB9B-C7B965C84DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F9A583-6070-46A7-AB9B-C7B965C84DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FBA642-B93A-4AF2-8A13-766E83BB963D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FBA642-B93A-4AF2-8A13-766E83BB963D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FBA642-B93A-4AF2-8A13-766E83BB963D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FBA642-B93A-4AF2-8A13-766E83BB963D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D1EA30-34FE-44A9-A91B-76D02C752A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D1EA30-34FE-44A9-A91B-76D02C752A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D1EA30-34FE-44A9-A91B-76D02C752A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D1EA30-34FE-44A9-A91B-76D02C752A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF19FB7D-D404-434C-B1BD-5AB9CC26DF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF19FB7D-D404-434C-B1BD-5AB9CC26DF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF19FB7D-D404-434C-B1BD-5AB9CC26DF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF19FB7D-D404-434C-B1BD-5AB9CC26DF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14330B2-6C1D-4D2B-88EA-3B9E630A227D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14330B2-6C1D-4D2B-88EA-3B9E630A227D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14330B2-6C1D-4D2B-88EA-3B9E630A227D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14330B2-6C1D-4D2B-88EA-3B9E630A227D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
