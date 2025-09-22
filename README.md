@@ -1,4 +1,4 @@
-# C Sharp Fundamentals
+# C Sharp Basics -> Advanced
 
 This repository contains C# basics to advanced examples, organized for quick learning and practice. It is intended for learners who want a concise path from syntax fundamentals to object-oriented programming and practical snippets.
 
