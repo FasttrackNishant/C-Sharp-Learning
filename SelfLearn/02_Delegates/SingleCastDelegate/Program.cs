@@ -13,6 +13,8 @@ class Program
         myDelegate = new MyDelegateType(s.Add);
 
          Console.WriteLine(myDelegate.Invoke(3, 4));
+
+        //th
     }
     
 } 
