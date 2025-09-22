@@ -56,14 +56,3 @@ Add a LICENSE file if a specific license is intended (MIT is common for educatio
 ## About
 
 This repository aims to provide a straightforward, example-first way to learn and revise C# fundamentals through small, focused programs.
-
-[1](https://github.com/othneildrew/Best-README-Template)
-[2](https://github.com/topics/readme-template)
-[3](https://github.com/topics/readme-template-list)
-[4](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-[5](https://www.makeareadme.com)
-[6](https://www.reddit.com/r/programming/comments/l0mgcy/github_readme_templates_creating_a_good_readme_is/)
-[7](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-[8](https://www.readme-templates.com)
-[9](https://www.youtube.com/watch?v=G-EGDH50hGE)
-[10](https://github.com/topics/readme)
