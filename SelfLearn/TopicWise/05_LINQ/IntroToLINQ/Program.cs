@@ -1,4 +1,6 @@
-﻿namespace IntroToLINQ;
+﻿using _05_IntroToLINQ;
+
+namespace IntroToLINQ;
 
 class Program
 {
@@ -19,21 +21,44 @@ class Program
         ];
 
 
-        var result = employees.Where(emp => emp.Job == "Software");
+        List<int> scores = [85, 92, 78, 90, 88, 76, 95, 89, 84, 91];
 
-        foreach (Employee emp in result)
+        // Deferred : Query is not executed until we iterate over it
+        IEnumerable<int> highScoreds = scores.Where(scores => scores > 85);
+
+        // alternate
+
+        IEnumerable<int> highScoresQuery = from score in scores
+                                           where score > 85
+                                           select score;
+
+
+
+        // Here it will execute when we iterate over it
+
+        Console.WriteLine("High Scores (Deferred Execution):");
+
+
+
+        foreach (var score in highScoreds)
         {
-            Console.WriteLine(emp);
+            Console.Write(score+ " ");
         }
 
-        //  Order by 
-        IOrderedEnumerable<Employee> sortedData = employees.OrderBy(emp => emp.EmpId);
+        Console.WriteLine("\n-------------------\n");
 
-        foreach (var VARIABLE in COLLECTION)
+        Console.WriteLine("High Scores (Query Syntax):");
+
+        foreach (var score in highScoresQuery)
         {
-            
+            Console.Write(score+ " ");
         }
-        
+
+
+        LinqOperations.RunLinqOperationChain();
+
+
+        LinqQueryOperations.RunLINQQueryOperations();
 
     }
 }
