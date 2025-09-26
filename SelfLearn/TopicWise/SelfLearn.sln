@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SystemThreading", "03_Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_DelegateEvents", "02_Delegates\02_DelegateEvents\02_DelegateEvents.csproj", "{2423399A-ED57-4164-89C7-CC98F3E8C811}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_DBFirstTesting", "07_EFCore\07_DBFirstTesting\07_DBFirstTesting.csproj", "{18DD06ED-65E5-453B-A2BD-968FED530219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2423399A-ED57-4164-89C7-CC98F3E8C811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2423399A-ED57-4164-89C7-CC98F3E8C811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2423399A-ED57-4164-89C7-CC98F3E8C811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DD06ED-65E5-453B-A2BD-968FED530219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DD06ED-65E5-453B-A2BD-968FED530219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DD06ED-65E5-453B-A2BD-968FED530219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DD06ED-65E5-453B-A2BD-968FED530219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

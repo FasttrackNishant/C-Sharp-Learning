@@ -62,6 +62,12 @@ namespace _05_IntroToLINQ
         };
 
 
+        public List<Category> categories = new List<Category> {
+            new Category { CategoryId = 1, CategoryName = "Electronics" },
+            new Category { CategoryId = 2, CategoryName = "Accessories" },
+            new Category { CategoryId = 3, CategoryName = "Office Supplies" }
+        };
+
 
     }
 
@@ -70,10 +76,18 @@ namespace _05_IntroToLINQ
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public string Category { get; set; }
+
+        public int CategoryId { get; set; }
         public decimal Price { get; set; }
 
     }
 
+
+    public class Category
+    {
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
+    }
 
     public class Department
     {
